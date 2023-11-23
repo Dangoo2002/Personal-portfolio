@@ -1,0 +1,247 @@
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.app {
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url('https://img.freepik.com/premium-photo/top-view-unrecognizable-cyber-security-hacker-wearing-hood-while-working-programming-code-dark-room-copy-space_236854-23134.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.app a {
+    text-decoration: none;
+    color: greenyellow;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.app a:hover {
+    color: orange;
+}
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(209, 204, 204, 0.897);
+    background-color: #666666d2;
+}
+
+.profile-image {
+    width: 200px; 
+    height: 200px;
+    border-radius: 50%; 
+}
+.sec {
+    padding-left: 20px; 
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.one {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    top: 20px;
+    position: relative;
+}
+
+.thir {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    padding-left: 350px; 
+    padding-top: 0px;
+    position: relative;
+    border-radius: 30px;
+    border: 30px;
+    border-color: black;
+}
+.last{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    padding-left: 350px; 
+    padding-top: 0px;
+    position: relative;
+    border-radius: 30px;
+    border: 30px;
+    border-color: black;
+    top: 80px;
+}
+.for{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    padding-left: 350px; 
+    padding-top: 0px;
+    position: relative;
+    border-radius: 30px;
+    border: 30px;
+    border-color: black;
+    top: 80px;
+}
+.fii{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    padding-left: 350px; 
+    padding-top: 0px;
+    position: relative;
+    border-radius: 30px;
+    border: 30px;
+    border-color: black;
+    top: 80px;
+
+}
+.last-last{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    padding-left: 350px; 
+    padding-top: 0px;
+    position: relative;
+    border-radius: 30px;
+    border: 30px;
+    border-color: black;
+    top: 80px;
+}
+.left{
+    position: absolute;
+    left: 600px;
+    top: 70px;
+}
+.ul{
+    position: absolute;
+    left: 600px;
+    top: 150px;
+
+}
+.ul a{
+    text-decoration: none;
+    font-size: 20px;
+    color: wheat;
+}
+.all {
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px; 
+    top: 20px;
+}
+
+.card-section {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 150px; 
+    background-color: wheat;
+    margin-bottom: 200px; 
+    top: 40px;
+}
+
+.card-section h2 {
+    color: #333;
+}
+
+.card-section p {
+    color: #666;
+}
+.card-sect {
+    width: 300px; 
+    height: 200px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 80px; 
+    background-color: wheat;
+    margin-bottom: 20px; 
+    top: 1200px; 
+    left: 39px; 
+    position: absolute;
+}
+
+.card-secto{
+    width: 300px; 
+    height: 200px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 80px; 
+    background-color: rgb(179, 245, 223);
+    margin-bottom: 20px; 
+    top: 1200px; 
+    left: 830px; 
+    position: absolute;
+}
+.card-sector{
+    width: 300px; 
+    height: 200px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 80px; 
+    background-color: rgb(228, 164, 46);
+    margin-bottom: 20px; 
+    top: 1700px; 
+    left: 420px; 
+    position: absolute;
+}
+.card-sec{
+    width: 700px; 
+    height: 200px; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 80px; 
+    background-color: gray;
+    margin-bottom: 20px; 
+    top: 2100px; 
+    left: 220px; 
+    position: absolute;
+    color: aliceblue;
+}
+.card-s{
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 150px; 
+    background-color: gray;
+    margin-bottom: 200px; 
+    top: 40px;
+}
+/* Existing CSS */
+
+/* Add the following media query */
+@media only screen and (max-width: 320px) {
+    .content {
+        text-align: center;
+    }
+
+    .profile-image {
+        width: 80px; 
+        height: 80px; 
+    }
+
+    .one,
+    .sec,
+    .thir,
+    .last,
+    .for,
+    .fii,
+    .last-last {
+        padding: 20px; 
+        margin-bottom: 20px; 
+    }
+
+    .ul {
+        padding-left: 0; 
+        list-style-type: none; 
+    }
+
+    .ul li {
+        margin-bottom: 10px; 
+}
+}
